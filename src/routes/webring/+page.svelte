@@ -44,7 +44,7 @@
     Once you're ready, send a message or (if you're feeling savvy) open a pull request!
 </p>
 <h3>Links</h3>
-<p>Your site needs the following links to join the Protogen Webring.</p>
+<p>Your site just needs the following links to join the Protogen Webring. No JavaScript needed!</p>
 <table>
     <thead>
         <tr>

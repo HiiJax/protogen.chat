@@ -33,6 +33,7 @@ body {
     color: var(--text-color);
     background-color: var(--background-main);
     font-family: var(--font-main);
+    scrollbar-gutter: stable;
 }
 
 .accent {
@@ -99,6 +100,7 @@ main {
 
 code {
     font-family: var(--font-mono);
+    word-break: break-word;
 }
 
 main h1,
