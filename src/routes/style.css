@@ -41,8 +41,7 @@ body {
 }
 
 .layout {
-    max-width: 1200px;
-    width: 100%;
+    width: 1200px;
     display: grid;
     grid-area: 
         "header" auto
@@ -179,8 +178,8 @@ hr {
 
 .hero {
     font-family: var(--font-heading);
-    padding: var(--padding);
-    font-size: 3em;
+    padding-block: var(--padding);
+    font-size: 2em;
     font-weight: 800;
     text-align: center;
     justify-content: center;
@@ -194,8 +193,9 @@ hr {
 .proto-face {
     padding-top: var(--padding);
     padding-bottom: 50px;
-    max-width: 90%;
+    width: 90%;
     animation: float 15s ease-in-out infinite;
+    color: var(--accent-color);
 }
 
 @keyframes float {
