@@ -1,37 +1,24 @@
-# sv
+# [protogen.chat](https://protogen.chat/)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.12.5 create --template minimal --types jsdoc --install npm protogen.chat
-```
+A corner of the web for protogens! 
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```sh
-npm run dev
+# clone and enter the repo
+git clone https://github.com/HiiJax/protogen.chat.git
+cd protogen.chat
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# install dependencies
+npm install
+
+# start the dev server
+npm run dev
 ```
 
 ## Building
 
-To create a production version of your app:
+To create a production version of protogen.chat:
 
 ```sh
 npm run build
@@ -39,4 +26,7 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## License
+
+- All code is under MIT license, feel free to use it as you wish!
+- Adwaita fonts licensed under the [SIL Open Font License](https://github.com/HiiJax/protogen.chat/blob/main/src/lib/assets/fonts/LICENSE)

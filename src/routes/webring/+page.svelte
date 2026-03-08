@@ -41,7 +41,9 @@
 <h2>Join the Ring!</h2>
 <p>
     If you already have a website, it's easy to join the ring! Just add the links to your site and make sure you follow the rules. 
-    Once you're ready, send a message or (if you're feeling savvy) open a pull request!
+    Once you're ready, <a href="/contact">send a message</a> or (if you're feeling savvy) 
+    <a href="https://github.com/HiiJax/protogen.chat/blob/main/src/routes/webring/webring.js">add yourself</a> and 
+    <a href="https://github.com/HiiJax/protogen.chat/pulls">open a pull request</a>!
 </p>
 <h3>Links</h3>
 <p>Your site just needs the following links to join the Protogen Webring. No JavaScript needed!</p>
@@ -65,8 +67,8 @@
         </tr>
     </thead>
 </table>
-<p>Currently, styling has not yet been created for the links. You can check out how members have implemented the links for inspiration</p>
-<p>Contributions for a unified design would be welcomed &lt;3 </p>
+<p>Currently, styling has not yet been created for the links. You can check out how members have implemented the links for inspiration.</p>
+<p>Contributions for a unified design would be welcomed! &lt;3 </p>
 <!--
 <p>The following links are available to use, but not currently required to join the Protogen Webring.</p>
 <table>
@@ -116,20 +118,19 @@
 <ul>
     <li>Hate is not tolerated in the slightest.</li>
     <li>Keeping furry weird is fine. But being rude, creepy, etc is not acceptable.</li>
-    <li><a href="https://hiijax.net">Jax</a> is site owner and has final say on what defines shitty behaviour. They may be opinionated.</li>
+    <li><a href="https://hiijax.net">Jax</a> is "ringmaster" and has final say on what defines shitty behaviour. They may be opinionated.</li>
 </ul>
 <p><strong>If you see any of these rules being broken, please <a href="/contact">contact Jax</a> ASAP.</strong></p>
 <hr>
 <h2>The Guts...</h2>
 <p>So you want to know about the inner workings of this ring? You nerd. You're cool, I like you.</p>
 <p>
-    Good news for you is that all the code is <a href="https://github.com/HiiJax/protogen.chat">on GitHub</a>.
-    It's free for you to use as you'd like, as long as you follow the 
-    <a href="https://github.com/HiiJax/protogen.chat/blob/main/LICENSE">MIT license</a> (easy to do). It's totally custom made by Jax,
-    without using any existing webring code or AI! It's made in <a href="https://svelte.dev/">SvelteKit</a>, which actually has a
-    routing system that made it super easy to build. Everything done here can be learned from their rather solid set of tutorials.
+    Good news for you is that all the code is <a href="https://github.com/HiiJax/protogen.chat/tree/main/src/routes/webring">on GitHub</a>.
+    It's free for you to use as you'd like, as long as you follow the <a href="https://github.com/HiiJax/protogen.chat/blob/main/LICENSE">MIT license</a>
+    (easy to do). It's totally custom made by Jax, without using any existing webring code or AI! It's made in <a href="https://svelte.dev/">SvelteKit</a>, 
+    which actually has a routing system that made it super easy to build. Everything done here can be learned from their rather solid set of tutorials.
 </p>
 <p>
-    With that being said, Jax is still a pretty beginner developer, so if you find something funky, please 
+    With that being said, Jax is still a rather novice developer, so if you find something funky, please 
     <a href="https://github.com/HiiJax/protogen.chat/issues">report it</a>!
 </p>

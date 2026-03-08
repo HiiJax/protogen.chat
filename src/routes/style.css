@@ -179,11 +179,35 @@ hr {
 
 .hero {
     font-family: var(--font-heading);
-    padding-block: 2em;
+    padding: var(--padding);
     font-size: 3em;
     font-weight: 800;
     text-align: center;
     justify-content: center;
+}
+
+.proto-face-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.proto-face {
+    padding-top: var(--padding);
+    padding-bottom: 50px;
+    max-width: 90%;
+    animation: float 15s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 a {
