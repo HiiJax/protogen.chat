@@ -5,7 +5,7 @@
 <div class="hero">
     <h1>Welcome, Protogens!</h1>
 </div>
-<div class="proto-face-holder">
+<div class="proto-face-holder flicker-in">
     <svg
         class="proto-face"
         viewBox="226.32642 175.08014 827.34717 375.84607"
