@@ -216,7 +216,7 @@ hr {
 	animation-name: flickerInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease;
-	animation-duration: 4s;
+	animation-duration: 6s;
 }
 
 @keyframes flickerInOpacity {
@@ -224,24 +224,27 @@ hr {
 		opacity: 0;
 	}
     10% {
+		opacity: 0;
+	}
+    30% {
 		opacity: 0.1;
 	}
-    11% {
+    31% {
 		opacity: 0.4;
 	}
-	12% {
+	32% {
 		opacity: 0.2;
 	}
-    13% {
+    33% {
 		opacity: 0.4;
 	}
-    16% {
+    36% {
 		opacity: 0.2;
 	}
-    17% {
+    37% {
 		opacity: 0.6;
 	}
-    19% {
+    39% {
 		opacity: 0.2;
 	}
 	100% {

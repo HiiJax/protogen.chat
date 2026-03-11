@@ -8,6 +8,8 @@
 <svelte:head>
 	<title>protogen.chat</title>
 	<link rel="icon" href={favicon} />
+	<meta name="description" content="A corner of the web for protogens!">
+	<meta name="theme-color" content="#aa5edd">
 </svelte:head>
 
 <div class="layout">

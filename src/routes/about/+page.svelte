@@ -7,7 +7,7 @@
 <h2>What is protogen<span class="accent">.</span>chat?</h2>
 <p>
     Currently, protogen<span class="accent">.</span>chat is a <a href="/bluesky">
-    Bluesky subdomain service</a> and <a href="/webring">webring</a>, hosted on Cloudflare pages. 
+    Bluesky subdomain service</a> and <a href="/webring">webring</a>, hosted on Cloudflare Pages. 
     Originally, I (<a href="https://hiijax.net">Jax</a>, site owner) was influenced to seek 
     alternatives to Discord when they attempted to push a 
     <a href="https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951">
