@@ -19,8 +19,10 @@ export async function load(context) {
 
 export const actions = {
     boop: async (context) => {
-        await context.platform?.env.PROTOGEN_DB
-            .prepare("UPDATE Boops SET Boops = Boops + 1 WHERE ProtoID = 1")
-            .run();
+        if (!dev) {
+            await context.platform?.env.PROTOGEN_DB
+                .prepare("UPDATE Boops SET Boops = Boops + 1 WHERE ProtoID = 1")
+                .run();
+        }
     }
 } 

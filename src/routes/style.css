@@ -199,6 +199,10 @@ hr {
     color: var(--accent-color);
 }
 
+.proto-face-holder:active {
+    scale: 0.95;
+}
+
 path:hover {
     cursor: pointer;
 }
