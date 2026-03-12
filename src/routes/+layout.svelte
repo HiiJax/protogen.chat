@@ -33,6 +33,10 @@
 				<a class="ring-link" href="https://protogen.chat/webring">ProtogenRing</a>
 				<a class="ring-link" href="https://protogen.chat/webring/protogen.chat/next">&rarr;</a>
 			</div>
+			<div>
+				<a href="https://protogen.chat" target="_blank"><img src="/buttons/protogen.gif" alt="protogen.chat"></a>
+				<!--<a href="https://hiijax.net" target="_blank"><img src="https://hiijax.net/buttons/hiijax.gif" alt="HiiJax"></a>-->
+			</div>
 		</div>
 		<br>
 		<div class="footer-content">
@@ -40,9 +44,6 @@
 				&copy; <a href="https://hiijax.net">HiiJax</a> 2026 |
 				Code under <a href="https://github.com/HiiJax/protogen.chat/blob/main/LICENSE">MIT license</a>, available on <a href="https://github.com/HiiJax/protogen.chat">GitHub</a>
 			</div>
-		</div>
-		<br>
-		<div class="footer-content">
 			<div>
 				<a href="/contact">Contact</a> |
 				<a href="/credits">Credits</a>

@@ -199,6 +199,10 @@ hr {
     color: var(--accent-color);
 }
 
+path:hover {
+    cursor: pointer;
+}
+
 @keyframes float {
   0% {
     transform: translateY(-10px);
@@ -273,7 +277,7 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -325,5 +329,12 @@ footer {
 
     .hero {
         font-size: 2em;
+    }
+
+    .footer-content {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
     }
 }
