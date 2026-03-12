@@ -6,7 +6,7 @@ export async function load(context) {
 
     if (!dev) {
         ps = context.platform.env.PROTOGEN_DB.prepare("SELECT Boops from Boops WHERE ProtoID = 1");
-        boops = await ps.first();
+        boops = await ps.first("Boops");
     } else {
         boops = 1;
     }
