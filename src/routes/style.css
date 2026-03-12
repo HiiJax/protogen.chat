@@ -256,6 +256,12 @@ path:hover {
 	}
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .proto-face, .flicker-in {
+    animation: none;
+  }
+}
+
 a {
     color: var(--text-color);
 }
