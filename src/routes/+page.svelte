@@ -1,4 +1,5 @@
 <script>
+    import { enhance } from "$app/forms";
     import { onMount } from "svelte";
 
     /**@type {SVGAnimateElement}*/
@@ -28,7 +29,7 @@
     <h1>Welcome, Protogens!</h1>
     
 </div>
-<div class="proto-face-holder flicker-in" >
+<form class="proto-face-holder flicker-in" method="POST" action="?/boop" use:enhance>
     <svg
         onclick={startBoot}
         class="proto-face"
@@ -55,7 +56,7 @@
             style="fill:currentColor;stroke:currentColor;stroke-width:6.29291;stroke-linecap:round;stroke-linejoin:round;"
             d="m 609.37335,397.44539 -15.39148,-13.41786 20.96793,2.36776 z m 61.25331,0 15.39148,-13.41786 -20.96793,2.36776 z"/>
     </svg>
-</div>
+</form>
 <div class="hero">
     <div class="smol">I have been booped {data.boops} times!</div>
 </div>
