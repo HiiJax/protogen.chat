@@ -8,6 +8,9 @@
     /**@type {HTMLAudioElement}*/
     let bootSound;
 
+    /**@type {HTMLFormElement}*/
+    let boopForm;
+
     onMount(() => {
         bootSound = new Audio('boot.opus');
     });
@@ -16,6 +19,7 @@
         bootAnim.beginElement();
         const sound = /** @type {HTMLAudioElement} */ (bootSound.cloneNode());
         sound.play();
+        boopForm.requestSubmit();
     }
 
     let { data } = $props();
@@ -29,7 +33,7 @@
     <h1>Welcome, Protogens!</h1>
     
 </div>
-<form class="proto-face-holder flicker-in" method="POST" action="?/boop" use:enhance>
+<form bind:this={boopForm} class="proto-face-holder flicker-in" method="POST" action="?/boop" use:enhance>
     <svg
         onclick={startBoot}
         class="proto-face"
