@@ -16,6 +16,8 @@
         const sound = /** @type {HTMLAudioElement} */ (bootSound.cloneNode());
         sound.play();
     }
+
+    let { data } = $props();
 </script>
 
 <svelte:head>
@@ -28,7 +30,7 @@
 </div>
 <div class="proto-face-holder flicker-in" >
     <svg
-        on:click={startBoot}
+        onclick={startBoot}
         class="proto-face"
         viewBox="226.32642 175.08014 827.34717 375.84607"
         xmlns="http://www.w3.org/2000/svg"
@@ -53,4 +55,7 @@
             style="fill:currentColor;stroke:currentColor;stroke-width:6.29291;stroke-linecap:round;stroke-linejoin:round;"
             d="m 609.37335,397.44539 -15.39148,-13.41786 20.96793,2.36776 z m 61.25331,0 15.39148,-13.41786 -20.96793,2.36776 z"/>
     </svg>
+</div>
+<div class="hero">
+    <div class="smol">I have been booped {data.boops} times!</div>
 </div>
