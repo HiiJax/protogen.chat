@@ -8,9 +8,6 @@
     /**@type {HTMLAudioElement}*/
     let bootSound;
 
-    /**@type {HTMLFormElement}*/
-    let boopForm;
-
     onMount(() => {
         bootSound = new Audio('boot.opus');
     });
@@ -19,10 +16,7 @@
         bootAnim.beginElement();
         const sound = /** @type {HTMLAudioElement} */ (bootSound.cloneNode());
         sound.play();
-        boopForm.requestSubmit();
     }
-
-    let { data } = $props();
 </script>
 
 <svelte:head>
@@ -33,7 +27,7 @@
     <h1>Welcome, Protogens!</h1>
     
 </div>
-<form bind:this={boopForm} class="proto-face-holder flicker-in" method="POST" action="?/boop" use:enhance>
+<div class="proto-face-holder flicker-in">
     <svg
         onclick={startBoot}
         class="proto-face"
@@ -60,7 +54,7 @@
             style="fill:currentColor;stroke:currentColor;stroke-width:6.29291;stroke-linecap:round;stroke-linejoin:round;"
             d="m 609.37335,397.44539 -15.39148,-13.41786 20.96793,2.36776 z m 61.25331,0 15.39148,-13.41786 -20.96793,2.36776 z"/>
     </svg>
-</form>
+</div>
 <div class="hero">
-    <div class="smol">I have been booped {data.boops} times!</div>
+    <div class="smol"><a href="https://bsky.app/profile/chatgpthvh.bsky.social/post/3mgzuei2qes2o">I was booped too many times!</a></div>
 </div>
