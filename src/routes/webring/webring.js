@@ -12,5 +12,9 @@ export const webring = [
     {
         website: 'bootfloppy.neocities.org',
         nsfw: false
+    },
+    {
+        website: 'm055-r0-v3r.com',
+        nsfw: false
     }
 ]
