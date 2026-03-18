@@ -36,7 +36,6 @@
         {/each}
     </tbody>
 </table>
-<br>
 <hr>
 <h2>Join the Ring!</h2>
 <p>
@@ -68,7 +67,6 @@
     </thead>
 </table>
 <p>Currently, styling has not yet been created for the links. You can check out how members have implemented the links for inspiration.</p>
-<p>Contributions for a unified design would be welcomed! &lt;3 </p>
 <!--
 <p>The following links are available to use, but not currently required to join the Protogen Webring.</p>
 <table>
@@ -84,10 +82,10 @@
     </thead>
 </table>
 -->
-<br>
-<h3>Rules</h3>
-<p>All rules are subject to change. This website and webring are run solely by me, <a href="https://hiijax.net">Jax</a>. 
-    While I will do my best, I make no guarantees to uptime or enforcement.</p>
+<hr>
+<h2>Rules</h2>
+<div class="rules">
+<p>All rules are subject to change. Enforcement and uptime will be offered on a "best effort" basis.</p>
 <h5>Must be a website</h5>
 <ul>
     <li>The webring must be able to link <i>to</i> the root of a domain (e.g. your.domain) or subdomain (e.g. yoursubdomain.neocities.org)</li>
@@ -110,16 +108,13 @@
     <li>You don't need to <i>be</i> a protogen to join the ring, you don't even need a protogen OC. Protogen artists and fans are all welcome too!</li>
     <li>As long as you've got a protogen sona or your site has something that protogen enjoyers might like to see, you're welcome to join!</li>
 </ul>
-<h5>Sites must be secure</h5>
-<ul>
-    <li>You need to be able to reach your site at <code>https://your.domain</code> - <code>http://your.domain</code> is not gonna cut it.</li>
-</ul>
 <h5>Don't be shitty</h5>
 <ul>
     <li>Hate is not tolerated in the slightest.</li>
     <li>Keeping furry weird is fine. But being rude, creepy, etc is not acceptable.</li>
-    <li><a href="https://hiijax.net">Jax</a> is "ringmaster" and has final say on what defines shitty behaviour. They may be opinionated.</li>
 </ul>
+</div>
+
 <p><strong>If you see any of these rules being broken, please <a href="/contact">contact Jax</a> ASAP.</strong></p>
 <hr>
 <h2>The Guts...</h2>
