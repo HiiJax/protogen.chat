@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-    <title>home | protogen.chat</title>
+    <title>protie | protogen.chat</title>
 </svelte:head>
 
 <div class="hero">
