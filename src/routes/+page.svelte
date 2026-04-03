@@ -1,5 +1,4 @@
 <script>
-    import { enhance } from "$app/forms";
     import { onMount } from "svelte";
 
     /**@type {SVGAnimateElement}*/
@@ -56,5 +55,5 @@
     </svg>
 </div>
 <div class="hero">
-    <div class="smol"><a href="https://bsky.app/profile/chatgpthvh.bsky.social/post/3mgzuei2qes2o">I was booped too many times!</a></div>
+    <div class="smol"></div>
 </div>
