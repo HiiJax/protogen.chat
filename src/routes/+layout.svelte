@@ -19,7 +19,7 @@
 			<nav>
 				<a href="/about">About</a>
 				<a href="/webring">Webring</a>
-				<a href="/bluesky">Bluesky Handles</a>
+				<a href="/services">Services</a>
 			</nav>
 
 	</header>
