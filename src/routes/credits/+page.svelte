@@ -26,3 +26,4 @@
   <li>&copy; 2025, <a href="https://jamie.garden">Jamie Gravendeel</a></li>
   <li>&copy; 2025, Florian Müllner</li>
 </ul>
+<p><strong>Very inspired by <a href="https://synth.download">synth.download</a> 💛</strong></p>

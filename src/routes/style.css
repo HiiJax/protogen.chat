@@ -210,7 +210,7 @@ hr {
   scale: 0.95;
 }
 
-path:hover {
+.proto-face path:hover {
   cursor: pointer;
 }
 
@@ -349,6 +349,31 @@ footer {
   background-color: var(--background-lighter);
   border-radius: var(--border-radius);
   padding: var(--padding);
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-name {
+  flex: 1;
+  margin: 0;
+}
+
+.serice-status {
+  margin-left: auto;
+  padding-top: 9px;
+}
+
+.service-icon {
+  font-family: var(--font-mono);
+  color: var(--accent-color);
+  font-size: 25px;
+  line-height: 25px;
+  max-width: 25px;
+  max-height: 25px;
 }
 
 

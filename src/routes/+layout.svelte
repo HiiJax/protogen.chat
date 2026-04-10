@@ -45,7 +45,8 @@
 				Code under <a href="https://github.com/HiiJax/protogen.chat/blob/main/LICENSE">MIT license</a>, available on <a href="https://github.com/HiiJax/protogen.chat">GitHub</a>
 			</div>
 			<div>
-				<a href="/contact">Contact</a> |
+				<a href="https://status.protogen.chat">Status</a> |
+				<a href="/contact">Contact</a>  |
 				<a href="/credits">Credits</a>
 			</div>
 		</div>

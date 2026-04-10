@@ -4,32 +4,52 @@
 
 <h1>Services</h1>
 <p>
-  We provice a variety of free services, just DM 
+  protogen<span class="accent">.</span>chat provides a variety of free services, just DM 
   <a href="https://bsky.app/profile/protogen.chat">this Bluesky account</a> 
-  if there's one you'd like to register for.
+  if there's one you'd like to register for!
 </p>
 <div class="service-grid">
   <div class="service">
-    <h2>Subdomains</h2>
+    <div class="service-header">
+      <div class="service-icon">*.</div>
+      <h2 class="service-name">Subdomains</h2>
+    </div>
     <hr>
-    <p>You can get your own *.protogen.chat subdomain!</p>
-    <p>It's currently best used for Bluesky handles, but hosting other content behind them may be allowed with approval.</p>
+    <p>You can get your own <code>*.protogen.chat</code> subdomain!</p>
+    <p>It's currently best used for Bluesky handles, but hosting other content behind them might be allowed with approval.</p>
   </div>
   <div class="service">
-    <h2>protogen.at PDS</h2>
+    <div class="service-header">
+      <svg role="img" class="service-icon" fill="var(--accent-color)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Bluesky</title><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg>
+      <h2 class="service-name">PDS</h2>
+      <a class="serice-status" href="https://status.protogen.chat"><img src="https://status.protogen.chat/api/badge/7/status" alt="pds status indicator"></a>
+    </div>
     <hr>
-    <p>Help turn Bluesky into the decentralized platform it could be! Store your Bluesky account and other atproto data on our server.</p>
-    <p>You won't be able to use a *.bsky.social username anymore, and will have to move to a *.protogen.at or custom (sub)domain.</p>
+    <p></p>
+    <p>Store your Bluesky account and other atproto data on our Personal Data Server, <a href="https://protogen.at">protogen.at</a>.</p>
+    <p>Also, instead of a <code>*.bsky.social</code> handle, you'll get a shiny new <code>*.protogen.at</code> one! Alternatively, you always have the option of using a custom (sub)domain.</p>
   </div>
   <div class="service">
-    <h2>Webring</h2>
+    <div class="service-header">
+      <svg role="img" class="service-icon" fill="var(--accent-color)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Forgejo</title><path d="M16.7773 0c1.6018 0 2.9004 1.2986 2.9004 2.9005s-1.2986 2.9004-2.9004 2.9004c-1.0854 0-2.0315-.596-2.5288-1.4787H12.91c-2.3322 0-4.2272 1.8718-4.2649 4.195l-.0007 2.1175a7.0759 7.0759 0 0 1 4.148-1.4205l.1176-.001 1.3385.0002c.4973-.8827 1.4434-1.4788 2.5288-1.4788 1.6018 0 2.9004 1.2986 2.9004 2.9005s-1.2986 2.9004-2.9004 2.9004c-1.0854 0-2.0315-.596-2.5288-1.4787H12.91c-2.3322 0-4.2272 1.8718-4.2649 4.195l-.0007 2.319c.8827.4973 1.4788 1.4434 1.4788 2.5287 0 1.602-1.2986 2.9005-2.9005 2.9005-1.6018 0-2.9004-1.2986-2.9004-2.9005 0-1.0853.596-2.0314 1.4788-2.5287l-.0002-9.9831c0-3.887 3.1195-7.0453 6.9915-7.108l.1176-.001h1.3385C14.7458.5962 15.692 0 16.7773 0ZM7.2227 19.9052c-.6596 0-1.1943.5347-1.1943 1.1943s.5347 1.1943 1.1943 1.1943 1.1944-.5347 1.1944-1.1943-.5348-1.1943-1.1944-1.1943Zm9.5546-10.4644c-.6596 0-1.1944.5347-1.1944 1.1943s.5348 1.1943 1.1944 1.1943c.6596 0 1.1943-.5347 1.1943-1.1943s-.5347-1.1943-1.1943-1.1943Zm0-7.7346c-.6596 0-1.1944.5347-1.1944 1.1943s.5348 1.1943 1.1944 1.1943c.6596 0 1.1943-.5347 1.1943-1.1943s-.5347-1.1943-1.1943-1.1943Z"/></svg>
+      <a href="https://git.protogen.chat"><h2 class="service-name">Forgejo</h2></a>
+      <a class="serice-status" href="https://status.protogen.chat"><img style="object-fit: cover;" src="https://status.protogen.chat/api/badge/1/status" alt="forgejo status indicator"></a>
+    </div>
     <hr>
-    <p><i>Go To <a href="/webring">Webring</a>.</i></p>
+    <p>A self-hosted GitHub alternative, hopefully federated one day with <a href="https://forgefed.org/">ForgeFed</a>. A basic runner is available to use as well.
+    </p>
   </div>
-   <div class="service">
+  <div class="service">
+    <div class="service-header">
+      <svg role="img" class="service-icon" fill="var(--accent-color)" viewBox="0 0 67.733334 67.733329" xmlns="http://www.w3.org/2000/svg"><title>Webring</title><path d="m 71.515982,62.969097 c 0,11.337774 -9.191082,20.528856 -20.528857,20.528856 -11.337774,0 -20.528856,-9.191082 -20.528856,-20.528856 0,-11.337774 9.191082,-20.528856 20.528856,-20.528856 11.337775,0 20.528857,9.191082 20.528857,20.528856 z m 46.985938,0 c 0,11.337774 9.19108,20.528856 20.52886,20.528856 11.33777,0 20.52885,-9.191082 20.52885,-20.528856 0,-11.337774 -9.19108,-20.528856 -20.52885,-20.528856 -11.33778,0 -20.52886,9.191082 -20.52886,20.528856 z M 71.515982,209.01563 c 0,-11.33778 -9.191082,-20.52886 -20.528857,-20.52886 -11.337774,0 -20.528856,9.19108 -20.528856,20.52886 0,11.33777 9.191082,20.52885 20.528856,20.52885 11.337775,0 20.528857,-9.19108 20.528857,-20.52885 z m 46.985938,0 c 0,-11.33778 9.19108,-20.52886 20.52886,-20.52886 11.33777,0 20.52885,9.19108 20.52885,20.52886 0,11.33777 -9.19108,20.52885 -20.52885,20.52885 -11.33778,0 -20.52886,-9.19108 -20.52886,-20.52885 z" transform="matrix(0.32220904,0,0,0.32220904,3.2539254,-9.9513033)" /><path d="m 52.157282,107.95235 c 0,10.71503 -8.686251,19.40128 -19.401285,19.40128 -10.715034,0 -19.401285,-8.68625 -19.401285,-19.40128 0,-10.715037 8.686251,-19.401288 19.401285,-19.401288 10.715034,0 19.401285,8.686251 19.401285,19.401288 z m 119.024218,0 c 0,10.71503 8.68625,19.40128 19.40128,19.40128 10.71504,0 19.40129,-8.68625 19.40129,-19.40128 0,-10.715037 -8.68625,-19.401288 -19.40129,-19.401288 -10.71503,0 -19.40128,8.686251 -19.40128,19.401288 z" transform="matrix(0.34093532,0,0,0.34093532,-4.2053705,-3.2168977)" /><path d="m 12.907091,13.64673 c -3.1707612,2.963626 -5.1924407,8.687566 -5.4820911,12.850641 2.3724962,-1.16138 6.2198971,-0.823527 8.4173181,1.94554 0.324122,-3.50586 0.989504,-7.242415 3.659655,-9.398147 -3.406747,-0.298349 -5.735748,-2.371651 -6.594882,-5.398034 z m 4.371542,43.370763 c -3.698409,-2.27125 -6.821703,-7.476605 -7.9363182,-11.498137 2.5565412,0.664559 6.2591302,-0.434293 7.8597502,-3.586182 1.017238,3.370658 2.41491,6.899268 5.461554,8.478778 -3.278682,0.972204 -5.147084,3.468582 -5.384986,6.605541 z M 58.880406,8.987459 c 3.700891,2.267203 6.829879,7.469136 7.948893,11.489447 -2.557267,-0.661762 -6.258651,0.44114 -7.855822,3.594779 -1.020925,-3.369543 -2.422457,-6.896622 -5.470827,-8.472798 3.277617,-0.975791 5.143286,-3.474211 5.377756,-6.611428 z m 4.418989,43.365954 c 3.167517,-2.967093 5.182933,-8.693242 5.468029,-12.856631 -2.371225,1.163975 -6.218993,0.830331 -8.419442,-1.93633 -0.320286,3.506213 -0.98158,7.243493 -3.649371,9.402145 3.407072,0.294622 5.73834,2.365375 6.600784,5.390816 z" transform="matrix(0.9639849,0.0955077,-0.09769726,0.94754705,0.37128615,-1.0536573)" /><path d="M 13.81117,9.7679409 C 8.1676707,14.367877 4.482005,22.145522 4.3196772,29.310047 7.184275,26.774547 9.6399362,25.916296 13.453986,27.962682 13.14005,25.622605 16.658981,18.279815 18.632208,17.008234 14.710128,15.502802 13.977731,13.281301 13.81117,9.7679409 Z M 69.149397,35.610659 c 0.09559,7.280065 -3.502171,15.098762 -8.891515,19.822293 0.105299,-3.824081 -0.812961,-6.257939 -4.83039,-7.86882 1.995824,-1.261429 5.367181,-8.673136 5.075535,-11.002403 3.671988,2.040966 5.84551,1.176517 8.64637,-0.95107 z" transform="matrix(0.3776448,0.89707038,-0.8086686,0.41892807,46.113879,-12.849253)" /></svg>
+      <a href="/webring"><h2 class="service-name">ProtogenRing</h2></a>
+    </div>
+    <hr>
+    <p>A series of protogens' (and protogen fans') websites all linking to each other to form a looping ring!</p>
+  </div>
+  <div class="service">
     <h2>Coming Soon</h2>
     <hr>
-    <p>Forgejo - once Jax moves it off hiijax.net</p>
     <p>Tangled Knot - maybe</p>
     <p>Fluxer - when/if federation is good</p>
   </div>
