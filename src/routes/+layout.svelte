@@ -12,6 +12,8 @@
 	<meta name="theme-color" content="#aa5edd">
 </svelte:head>
 
+<a href="#content" id="skip-to-content-link">Skip to content</a>
+
 <div class="layout">
 	<header>
 			<a class="header-title" href="/">protogen<span class="accent">.</span>chat</a>
@@ -23,7 +25,7 @@
 			</nav>
 
 	</header>
-	<main>
+	<main id="content">
 		{@render children()}
 	</main>
 	<footer>
