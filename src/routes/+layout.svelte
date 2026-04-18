@@ -1,13 +1,17 @@
 <script>
 	import './style.css'
-	import favicon from '$lib/assets/favicon.png';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
 	<title>protogen.chat</title>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="protogen.chat" />
+	<link rel="manifest" href="/site.webmanifest" />
 	<meta name="description" content="A corner of the web for protogens!">
 	<meta name="theme-color" content="#aa5edd">
 </svelte:head>
