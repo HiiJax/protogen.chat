@@ -192,6 +192,10 @@ hr {
   justify-content: center;
 }
 
+[role="button"]:focus:not(:focus-visible) {
+  outline: none;
+}
+
 .proto-face-holder {
   display: flex;
   justify-content: center;
