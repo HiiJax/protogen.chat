@@ -1,4 +1,4 @@
-import { webring } from '../../webring.js';
+import { webring } from '../../webring';
 import { redirect } from '@sveltejs/kit';
 
 export function load({ params }) {
