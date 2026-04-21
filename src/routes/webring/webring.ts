@@ -16,5 +16,9 @@ export const webring = [
     {
         website: 'm055-r0-v3r.com',
         nsfw: false
+    },
+    {
+        website: 'pquirrel.neocities.org',
+        nsfw: false
     }
 ]
