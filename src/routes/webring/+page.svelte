@@ -96,6 +96,10 @@
           <td>Next &rAarr;</td>
           <td><code>https://protogen.chat/webring/<i>your.domain</i>/next</code></td>
         </tr>
+        <tr>
+          <td>Random (optional)</td>
+          <td><code>https://protogen.chat/webring/<i>your.domain</i>/random</code></td>
+        </tr>
       </thead>
     </table>
     <p>
@@ -103,7 +107,7 @@
     </p>
     <p>
       Once you're ready, <a href="/contact">send a message</a> or (if you're feeling savvy) 
-      <a href="https://github.com/HiiJax/protogen.chat/blob/main/src/routes/webring/webring.js">add yourself</a> and 
+      <a href="https://github.com/HiiJax/protogen.chat/blob/main/src/routes/webring/webring.ts">add yourself</a> and 
       <a href="https://github.com/HiiJax/protogen.chat/pulls">open a pull request</a>!
     </p>
   </div>
