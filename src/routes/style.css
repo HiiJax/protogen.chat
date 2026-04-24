@@ -6,7 +6,11 @@
 
 @font-face {
   font-family: 'Adwaita Mono';
-  src: url('$lib/assets/fonts/adwaita-mono.ttf');
+  src: local('Adwaita Mono'),
+    local('Adwaita-Mono'),
+    url('$lib/assets/fonts/adwaita-mono.woff2'), format('woff2'),
+    url('$lib/assets/fonts/adwaita-mono.woff2'), format('woff'),
+    url('$lib/assets/fonts/adwaita-mono.ttf'), format('TrueType');
   font-display: swap;
 }
 
@@ -454,4 +458,16 @@ footer {
 #skip-to-content-link:focus,
 #skip-to-content-link:focus-within {
   transform: translateY(0);
+}
+
+.button {
+  width: 88px;
+  height: 31px;
+  display: inline-block;
+}
+
+@media (min-resolution: 192dpi) {
+.button {
+    image-rendering: pixelated;
+  }
 }

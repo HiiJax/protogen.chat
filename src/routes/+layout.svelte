@@ -12,7 +12,7 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 	<meta name="apple-mobile-web-app-title" content="protogen.chat" />
 	<link rel="manifest" href="/site.webmanifest" />
-	<meta name="description" content="A corner of the web for protogens!">
+	<meta name="description" content="A corner of the web for protogens! Home of the Protogen Webring.">
 	<meta name="theme-color" content="#aa5edd">
 </svelte:head>
 
@@ -40,8 +40,16 @@
 				<a class="ring-link" href="https://protogen.chat/webring/protogen.chat/next">&rarr;</a>
 			</div>
 			<div>
-				<a href="https://protogen.chat" target="_blank"><img src="/buttons/protogen.gif" alt="protogen.chat"></a>
-				<!--<a href="https://hiijax.net" target="_blank"><img src="https://hiijax.net/buttons/hiijax.gif" alt="HiiJax"></a>-->
+				<a href="https://protogen.chat" target="_blank">
+					<img 
+						class="button"
+						width="88"
+						height="31"
+						src="/buttons/protogen.gif"
+						alt="protogen.chat"
+						loading="lazy"
+					/>
+				</a>
 			</div>
 		</div>
 		<br>

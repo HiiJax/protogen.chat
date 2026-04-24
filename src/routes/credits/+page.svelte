@@ -26,6 +26,7 @@
   <li>&copy; 2025, <a href="https://jamie.garden">Jamie Gravendeel</a></li>
   <li>&copy; 2025, Florian Müllner</li>
   <li><a href="https://gitlab.gnome.org/GNOME/adwaita-fonts">https://gitlab.gnome.org/GNOME/adwaita-fonts</a></li>
+  <li>Adwaita Mono has been modified to reduce file size: some glyphs removed, woff formats</li>
 </ul>
 <h3>Adwaita Icons</h3>
 <ul>
