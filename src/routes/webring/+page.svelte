@@ -128,10 +128,10 @@
     <div class="rules">
     <p>All rules are subject to change</p>
     <ul>
-      <li>NSFW content MUST be gated, so people that don't wanna see it don't have to.</li>
-      <li>You don't necessarily need to be a protogen to join, you just need content protogen fans would enjoy (protogen art, suits, etc)</li>
-      <li>Hate is not tolerated.</li>
-      <li>Keeping furry weird is fine. But being rude, creepy, etc is not acceptable.</li>
+      <li>18+ content should be gated (as in some kind of prior warning) so venturers of the ring aren't caught by surprise!</li>
+      <li>You don't necessarily need to be a protogen to join, just having content protogen fans would enjoy is great! (protogen art, suits, etc)</li>
+      <li>Hate, bigotry, and harmful acts are not tolerated.</li>
+      <li>Keeping furry weird is fine. But being rude, creepy, or ignoring boundaries is not acceptable.</li>
     </ul>
     </div>
     <p><strong>If you see any of these rules being broken, please <a href="/contact">contact Jax</a> ASAP.</strong></p>
