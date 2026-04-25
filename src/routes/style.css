@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Adwaita Sans';
-  src: url('$lib/assets/fonts/adwaita-sans.ttf');
+  src: url('$lib/assets/fonts/adwaita-sans.woff2'), format('woff2'),
+    url('$lib/assets/fonts/adwaita-sans.ttf'), format('TrueType');
   font-display: swap;
 }
 

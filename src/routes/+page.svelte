@@ -76,7 +76,7 @@
 </svelte:head>
 
 <div class="hero">
-  <h1>Welcome, Pro<span id="prowogen" role="button" tabindex="0" onkeydown={(e) => (e.keyCode === 13 ? prowogen() : null)} onclick={prowogen}>t</span>ogens!</h1>
+  <h1>Welcome, pro<span id="prowogen" role="button" tabindex="0" onkeydown={(e) => (e.key === "Enter" ? prowogen() : null)} onclick={prowogen}>t</span>ogens and the like!</h1>
 </div>
 <div class="proto-face-holder flicker-in">
   <svg
@@ -152,6 +152,12 @@
       d="m 609.37335,397.44539 -15.39148,-13.41786 20.96793,2.36776 z m 61.25331,0 15.39148,-13.41786 -20.96793,2.36776 z"/>
   </svg>
 </div>
+<div class="hero">
+  <div class="smol">
+    mess around with the face or choose one of the various links!
+  </div>
+</div>
+
 
 
 <!--

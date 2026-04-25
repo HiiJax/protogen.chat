@@ -40,6 +40,17 @@
 				<a class="ring-link" href="https://protogen.chat/webring/protogen.chat/next">&rarr;</a>
 			</div>
 			<div>
+				<a href="https://synth.download" target="_blank">
+					<img 
+						class="button"
+						width="88"
+						height="31"
+						src="/buttons/synthdownload.svg"
+						alt="synth.download!"
+            title="synth.download!"
+						loading="lazy"
+					/>
+				</a>
 				<a href="https://protogen.chat" target="_blank">
 					<img 
 						class="button"
@@ -47,6 +58,7 @@
 						height="31"
 						src="/buttons/protogen.gif"
 						alt="protogen.chat"
+            title="protogen.chat"
 						loading="lazy"
 					/>
 				</a>
@@ -55,10 +67,11 @@
 		<br>
 		<div class="footer-content">
 			<div>
-				&copy; <a href="https://hiijax.net">HiiJax</a> 2026 |
-				Code under <a href="https://github.com/HiiJax/protogen.chat/blob/main/LICENSE">MIT license</a>, available on <a href="https://github.com/HiiJax/protogen.chat">GitHub</a>
+				&copy; <a href="https://hiijax.net">HiiJax</a> 2026, <a href="https://github.com/HiiJax/protogen.chat">code</a> under 
+				<a href="https://github.com/HiiJax/protogen.chat/blob/main/LICENSE">MIT license</a>, use and abuse it!
 			</div>
 			<div>
+				<a rel="me" href="https://bsky.app/profile/protogen.chat">Bluesky</a> |
 				<a href="https://status.protogen.chat">Status</a> |
 				<a href="/contact">Contact</a>  |
 				<a href="/credits">Credits</a>
