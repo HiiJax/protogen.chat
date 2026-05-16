@@ -25,4 +25,4 @@ export const webring = [
         website: 'darkworld.download',
         nsfw: false
     }
-]
+];
