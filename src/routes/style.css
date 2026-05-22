@@ -1,25 +1,26 @@
 @font-face {
-  font-family: 'Adwaita Sans';
-  src: url('$lib/assets/fonts/adwaita-sans.woff2'), format('woff2'),
-    url('$lib/assets/fonts/adwaita-sans.ttf'), format('TrueType');
+  font-family: "Adwaita Sans";
+  src:
+    url("$lib/assets/fonts/adwaita-sans.woff2"), format("woff2"),
+    url("$lib/assets/fonts/adwaita-sans.ttf"), format("TrueType");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Adwaita Mono';
-  src: local('Adwaita Mono'),
-    local('Adwaita-Mono'),
-    url('$lib/assets/fonts/adwaita-mono.woff2'), format('woff2'),
-    url('$lib/assets/fonts/adwaita-mono.woff2'), format('woff'),
-    url('$lib/assets/fonts/adwaita-mono.ttf'), format('TrueType');
+  font-family: "Adwaita Mono";
+  src:
+    local("Adwaita Mono"), local("Adwaita-Mono"),
+    url("$lib/assets/fonts/adwaita-mono.woff2"), format("woff2"),
+    url("$lib/assets/fonts/adwaita-mono.woff2"), format("woff"),
+    url("$lib/assets/fonts/adwaita-mono.ttf"), format("TrueType");
   font-display: swap;
 }
 
 :root {
-  --font-header: 'Adwaita Sans', sans-serif;
-  --font-heading: 'Adwaita Sans', sans-serif;
-  --font-main: 'Adwaita Sans', sans-serif;
-  --font-mono: 'Adwaita Mono', monospace;
+  --font-header: "Adwaita Sans", sans-serif;
+  --font-heading: "Adwaita Sans", sans-serif;
+  --font-main: "Adwaita Sans", sans-serif;
+  --font-mono: "Adwaita Mono", monospace;
   --background-main: #161419;
   --background-content: #201b27;
   --background-lighter: #2c2538;
@@ -43,14 +44,13 @@ body {
 }
 
 .accent {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .layout {
   width: 1200px;
   display: grid;
-  grid-area:
-    "header" auto "main" 1fr "footer" auto;
+  grid-area: "header" auto "main" 1fr "footer" auto;
   gap: 8px;
 }
 
@@ -62,8 +62,6 @@ header {
   border-radius: var(--border-radius);
   align-items: center;
 }
-
-
 
 .header-title {
   font-family: var(--font-header);
@@ -166,7 +164,6 @@ main h6 {
   font-size: 1em;
 }
 
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -191,10 +188,20 @@ hr {
 .hero {
   font-family: var(--font-heading);
   padding-block: var(--padding);
-  font-size: 2em;
+  font-size: 2.4em;
   font-weight: 800;
   text-align: center;
   justify-content: center;
+}
+
+.hero-lower {
+  font-family: var(--font-heading);
+  padding-block: var(--padding);
+  font-size: 1.2em;
+  font-weight: 800;
+  text-align: center;
+  justify-content: center;
+  color: var(--darker-text-color);
 }
 
 [role="button"]:focus:not(:focus-visible) {
@@ -300,7 +307,6 @@ hr {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
   .proto-face,
   .flicker-in {
     animation: none;
@@ -398,7 +404,6 @@ footer {
   height: 25px;
 }
 
-
 @media (max-width: 850px) {
   :root {
     --padding: 20px;
@@ -420,10 +425,6 @@ footer {
     text-align: center;
     margin: 0;
     margin-bottom: 10px;
-  }
-
-  .hero {
-    font-size: 1em;
   }
 
   .footer-content {
@@ -468,7 +469,7 @@ footer {
 }
 
 @media (min-resolution: 192dpi) {
-.button {
+  .button {
     image-rendering: pixelated;
   }
 }
