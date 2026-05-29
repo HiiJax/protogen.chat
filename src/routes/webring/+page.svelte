@@ -6,7 +6,7 @@
   <title>webring | protogen.chat</title>
 </svelte:head>
 
-<h1>Protogen Webring</h1>
+<h1>ProtogenRing</h1>
 <a class="smol" href="https://indieweb.org/webring"
   >First time seeing a webring?
 </a>
@@ -209,4 +209,7 @@
       >
     </p>
   </div>
+</div>
+<div class="smol right">
+  Also try&nbsp;<a href="https://synth.download/ring">SynthRing</a>!
 </div>
