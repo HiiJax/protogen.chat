@@ -154,11 +154,11 @@
       Once you're ready, <a href="/contact">send a message</a> or (if you're
       feeling savvy)
       <a
-        href="https://github.com/HiiJax/protogen.chat/blob/main/src/routes/webring/webring.ts"
+        href="https://tangled.org/hiijax.net/protogen.chat/blob/main/src/routes/webring/webring.ts"
         >add yourself</a
       >
       and
-      <a href="https://github.com/HiiJax/protogen.chat/pulls"
+      <a href="https://tangled.org/hiijax.net/protogen.chat/pulls"
         >open a pull request</a
       >!
     </p>

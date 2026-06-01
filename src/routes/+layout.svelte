@@ -1,7 +1,7 @@
 <script lang="ts">
-	import './style.css'
+  import "./style.css";
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
 <svelte:head>
@@ -41,7 +41,7 @@
 			</div>
 			<div>
 				<a href="https://synth.download" target="_blank">
-					<img 
+					<img
 						class="button"
 						width="88"
 						height="31"
@@ -52,7 +52,7 @@
 					/>
 				</a>
 				<a href="https://protogen.chat" target="_blank">
-					<img 
+					<img
 						class="button"
 						width="88"
 						height="31"
@@ -67,8 +67,8 @@
 		<br>
 		<div class="footer-content">
 			<div>
-				&copy; <a href="https://hiijax.net">HiiJax</a> 2026, <a href="https://github.com/HiiJax/protogen.chat">code</a> under 
-				<a href="https://github.com/HiiJax/protogen.chat/blob/main/LICENSE">MIT license</a>, use and abuse it!
+				&copy; <a href="https://hiijax.net">HiiJax</a> 2026, <a href="https://tangled.org/hiijax.net/protogen.chat">code</a> under
+				<a href="https://tangled.org/hiijax.net/protogen.chat/blob/main/LICENSE">MIT license</a>, use and abuse it!
 			</div>
 			<div>
 				<a rel="me" href="https://bsky.app/profile/protogen.chat">Bluesky</a> |

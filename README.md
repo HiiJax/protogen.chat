@@ -6,7 +6,7 @@ A corner of the web for protogens!
 
 ```sh
 # clone and enter the repo
-git clone https://github.com/HiiJax/protogen.chat.git
+git clone https://tangled.org/hiijax.net/protogen.chat
 cd protogen.chat
 
 # install dependencies
@@ -29,4 +29,4 @@ You can preview the production build with `npm run preview`.
 ## License
 
 - All code is under MIT license, feel free to use it as you wish!
-- Adwaita fonts licensed under the [SIL Open Font License](https://github.com/HiiJax/protogen.chat/blob/main/src/lib/assets/fonts/LICENSE)
+- Adwaita fonts licensed under the [SIL Open Font License](https://tangled.org/hiijax.net/protogen.chat/blob/main/src/lib/assets/fonts/LICENSE)
