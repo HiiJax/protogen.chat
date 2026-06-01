@@ -64,10 +64,7 @@
       }
       setInterval(() => {
         hue = (hue + 1) % 360;
-        document.documentElement.style.setProperty(
-          "--accent-color",
-          `hsl(${hue}, 70%, 60%)`,
-        );
+        document.documentElement.style.setProperty("--accent-color", `hsl(${hue}, 70%, 60%)`);
       }, 10);
     }
   }
@@ -172,6 +169,4 @@
     />
   </svg>
 </div>
-<div class="hero-lower">
-  mess around with the face or choose one of the various links!
-</div>
+<div class="hero-lower">mess around with the face or choose one of the various links!</div>

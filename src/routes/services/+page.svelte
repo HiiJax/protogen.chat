@@ -4,19 +4,14 @@
 
 <h1>Services</h1>
 <p>
-  protogen<span class="accent">.</span>chat provides a variety of free services,
-  just DM
+  protogen<span class="accent">.</span>chat provides a variety of free services, just DM
   <a href="https://bsky.app/profile/protogen.chat">this Bluesky account</a>
   if there's one you'd like to register for!
 </p>
 <div class="service-grid">
   <div class="service">
     <div class="service-header">
-      <svg
-        role="img"
-        class="service-icon"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <svg role="img" class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
         ><title>Bluesky</title><path
           d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"
         /></svg
@@ -34,23 +29,18 @@
     <hr />
     <p></p>
     <p>
-      Store your Bluesky account and other atproto data on our Personal Data
-      Server, <a href="https://protogen.at">protogen.at</a>.
+      Store your Bluesky account and other atproto data on our Personal Data Server, <a
+        href="https://protogen.at">protogen.at</a
+      >.
     </p>
     <p>
-      Also, instead of a <code>*.bsky.social</code> handle, you'll get a shiny
-      new <code>*.protogen.at</code> one! Alternatively, you always have the option
-      of using a custom (sub)domain.
+      Also, instead of a <code>*.bsky.social</code> handle, you'll get a shiny new
+      <code>*.protogen.at</code> one! Alternatively, you always have the option of using a custom (sub)domain.
     </p>
   </div>
   <div class="service">
     <div class="service-header">
-      <svg
-        role="img"
-        class="service-icon"
-        viewBox="0 0 25 25"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg role="img" class="service-icon" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
         <g transform="translate(-0.42924038,-0.87777209)">
           <path
             style="stroke-width:0.111183;"
@@ -58,7 +48,10 @@
           />
         </g>
       </svg>
-      <h2 class="service-name"><a href="https://knot.protogen.chat">Knot</a> &amp; <a href="https://spindle.protogen.chat">Spindle</a></h2>
+      <h2 class="service-name">
+        <a href="https://knot.protogen.chat">Knot</a> &amp;
+        <a href="https://spindle.protogen.chat">Spindle</a>
+      </h2>
       <!--moved from uptime kuma to hetrix, need to find a new way to do badges
       <a class="serice-status" href="https://status.protogen.chat"
         ><img
@@ -72,11 +65,12 @@
     <hr />
     <p>
       The Knot hosts repository data and handles Git operations for
-      <a href="https://tangled.org">tangled</a> repos.
-      The Spindle performs CI/CD tasks for <a href="https://tangled.org">tangled</a> pipelines.
+      <a href="https://tangled.org">tangled</a> repos. The Spindle performs CI/CD tasks for
+      <a href="https://tangled.org">tangled</a> pipelines.
     </p>
     <p>
-      You can use both, either, or neither! Despite them both being for tangled, they can operate independantly from each other.
+      You can use both, either, or neither! Despite them both being for tangled, they can operate
+      independantly from each other.
     </p>
   </div>
   <div class="service">
@@ -87,17 +81,13 @@
     <hr />
     <p>You can get your own <code>*.protogen.chat</code> subdomain!</p>
     <p>
-      It's currently best used for Bluesky handles, but hosting other content
-      behind them might be allowed with approval.
+      It's currently best used for Bluesky handles, but hosting other content behind them might be
+      allowed with approval.
     </p>
   </div>
   <div class="service">
     <div class="service-header">
-      <svg
-        role="img"
-        class="service-icon"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <svg role="img" class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
         ><title>Forgejo</title><path
           d="M16.7773 0c1.6018 0 2.9004 1.2986 2.9004 2.9005s-1.2986 2.9004-2.9004 2.9004c-1.0854 0-2.0315-.596-2.5288-1.4787H12.91c-2.3322 0-4.2272 1.8718-4.2649 4.195l-.0007 2.1175a7.0759 7.0759 0 0 1 4.148-1.4205l.1176-.001 1.3385.0002c.4973-.8827 1.4434-1.4788 2.5288-1.4788 1.6018 0 2.9004 1.2986 2.9004 2.9005s-1.2986 2.9004-2.9004 2.9004c-1.0854 0-2.0315-.596-2.5288-1.4787H12.91c-2.3322 0-4.2272 1.8718-4.2649 4.195l-.0007 2.319c.8827.4973 1.4788 1.4434 1.4788 2.5287 0 1.602-1.2986 2.9005-2.9005 2.9005-1.6018 0-2.9004-1.2986-2.9004-2.9005 0-1.0853.596-2.0314 1.4788-2.5287l-.0002-9.9831c0-3.887 3.1195-7.0453 6.9915-7.108l.1176-.001h1.3385C14.7458.5962 15.692 0 16.7773 0ZM7.2227 19.9052c-.6596 0-1.1943.5347-1.1943 1.1943s.5347 1.1943 1.1943 1.1943 1.1944-.5347 1.1944-1.1943-.5348-1.1943-1.1944-1.1943Zm9.5546-10.4644c-.6596 0-1.1944.5347-1.1944 1.1943s.5348 1.1943 1.1944 1.1943c.6596 0 1.1943-.5347 1.1943-1.1943s-.5347-1.1943-1.1943-1.1943Zm0-7.7346c-.6596 0-1.1944.5347-1.1944 1.1943s.5348 1.1943 1.1944 1.1943c.6596 0 1.1943-.5347 1.1943-1.1943s-.5347-1.1943-1.1943-1.1943Z"
         /></svg
@@ -152,8 +142,8 @@
     </div>
     <hr />
     <p>
-      A series of protogens' (and protogen fans') websites all linking to each
-      other to form a looping ring!
+      A series of protogens' (and protogen fans') websites all linking to each other to form a
+      looping ring!
     </p>
   </div>
   <div class="service">

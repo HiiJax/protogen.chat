@@ -1,5 +1,5 @@
-import { webring } from '../../webring';
-import { redirect } from '@sveltejs/kit';
+import { webring } from "../../webring";
+import { redirect } from "@sveltejs/kit";
 
 export function load({ params }) {
   const currentIndex = webring.findIndex((indexWebsite) => indexWebsite.website === params.website);
@@ -31,6 +31,6 @@ export function load({ params }) {
     case "random":
       redirect(302, "https://" + randWebsite);
     default:
-      redirect(302, "/webring")
+      redirect(302, "/webring");
   }
 }

@@ -7,9 +7,7 @@
 </svelte:head>
 
 <h1>ProtogenRing</h1>
-<a class="smol" href="https://indieweb.org/webring"
-  >First time seeing a webring?
-</a>
+<a class="smol" href="https://indieweb.org/webring">First time seeing a webring? </a>
 <br />
 <br />
 <div class="service-grid">
@@ -31,14 +29,14 @@
     </div>
     <hr />
     <p>
-      Within this webring, you'll find websites related to "protogens", a
-      fictional species created by
+      Within this webring, you'll find websites related to "protogens", a fictional species created
+      by
       <a href="https://coolkoinu.carrd.co/">KOINU</a> in the
-      <a href="https://en.wikipedia.org/wiki/Furry_fandom">furry fandom</a>.
-      Members might use them to represent themselves (this is usually referred
-      to as a <a href="https://en.wikipedia.org/wiki/Fursona">fursona</a>), have
-      created character(s) based on the species, be an artist that draws other's
-      protogens, or maybe they're just a really big fan of protogens!
+      <a href="https://en.wikipedia.org/wiki/Furry_fandom">furry fandom</a>. Members might use them
+      to represent themselves (this is usually referred to as a
+      <a href="https://en.wikipedia.org/wiki/Fursona">fursona</a>), have created character(s) based
+      on the species, be an artist that draws other's protogens, or maybe they're just a really big
+      fan of protogens!
     </p>
     <p>
       You can learn more about protogens on <a href="https://zoruniverse.info/"
@@ -63,10 +61,7 @@
       <h2 class="service-name">Members</h2>
     </div>
     <hr />
-    <p>
-      The following sites are in the ring! We're still new and always looking
-      for members!
-    </p>
+    <p>The following sites are in the ring! We're still new and always looking for members!</p>
     <table>
       <thead>
         <tr>
@@ -109,8 +104,8 @@
     </div>
     <hr />
     <p>
-      If you already have a website, it's easy to join the ring! Just check the
-      rules, then add the links:
+      If you already have a website, it's easy to join the ring! Just check the rules, then add the
+      links:
     </p>
     <table>
       <thead>
@@ -124,43 +119,28 @@
         </tr>
         <tr>
           <td>&lAarr; Prev</td>
-          <td
-            ><code
-              >https://protogen.chat/webring/<i>your.domain</i>/previous</code
-            ></td
-          >
+          <td><code>https://protogen.chat/webring/<i>your.domain</i>/previous</code></td>
         </tr>
         <tr>
           <td>Next &rAarr;</td>
-          <td
-            ><code>https://protogen.chat/webring/<i>your.domain</i>/next</code
-            ></td
-          >
+          <td><code>https://protogen.chat/webring/<i>your.domain</i>/next</code></td>
         </tr>
         <tr>
           <td>Random (optional)</td>
-          <td
-            ><code>https://protogen.chat/webring/<i>your.domain</i>/random</code
-            ></td
-          >
+          <td><code>https://protogen.chat/webring/<i>your.domain</i>/random</code></td>
         </tr>
       </thead>
     </table>
     <p>
-      There's no set styling for the ring (yet!). Please check out members'
-      sites for inspiration.
+      There's no set styling for the ring (yet!). Please check out members' sites for inspiration.
     </p>
     <p>
-      Once you're ready, <a href="/contact">send a message</a> or (if you're
-      feeling savvy)
-      <a
-        href="https://tangled.org/hiijax.net/protogen.chat/blob/main/src/routes/webring/webring.ts"
+      Once you're ready, <a href="/contact">send a message</a> or (if you're feeling savvy)
+      <a href="https://tangled.org/hiijax.net/protogen.chat/blob/main/src/routes/webring/webring.ts"
         >add yourself</a
       >
       and
-      <a href="https://tangled.org/hiijax.net/protogen.chat/pulls"
-        >open a pull request</a
-      >!
+      <a href="https://tangled.org/hiijax.net/protogen.chat/pulls">open a pull request</a>!
     </p>
   </div>
   <div class="service">
@@ -187,25 +167,23 @@
       <p>All rules are subject to change</p>
       <ul>
         <li>
-          You <i>should</i> have protogen content on your site, but really as long
-          as you're friendly with us toasters, we welcome you :3
+          You <i>should</i> have protogen content on your site, but really as long as you're friendly
+          with us toasters, we welcome you :3
         </li>
         <li>
-          18+ content should be gated (as in some kind of prior warning) so
-          venturers of the ring aren't caught by surprise!
+          18+ content should be gated (as in some kind of prior warning) so venturers of the ring
+          aren't caught by surprise!
         </li>
         <li>Hate, bigotry, and harmful acts are not tolerated.</li>
         <li>
-          Keeping furry weird is fine. But being rude, creepy, or ignoring
-          boundaries is not acceptable.
+          Keeping furry weird is fine. But being rude, creepy, or ignoring boundaries is not
+          acceptable.
         </li>
       </ul>
     </div>
     <p>
       <strong
-        >If you see any of these rules being broken, please <a href="/contact"
-          >contact Jax</a
-        > ASAP.</strong
+        >If you see any of these rules being broken, please <a href="/contact">contact Jax</a> ASAP.</strong
       >
     </p>
   </div>

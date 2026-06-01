@@ -1,10 +1,9 @@
 <svelte:head>
-	<title>credits | protogen.chat</title>
+  <title>credits | protogen.chat</title>
 </svelte:head>
 
-
 <h1>Credits</h1>
-<hr>
+<hr />
 <h3>Favicon Base by Nekotiating</h3>
 <ul>
   <li>
@@ -25,18 +24,30 @@
   <li>&copy; 2015-2025, Renzhi Li (aka. Belleve Invis, belleve@typeof.net)</li>
   <li>&copy; 2025, <a href="https://jamie.garden">Jamie Gravendeel</a></li>
   <li>&copy; 2025, Florian Müllner</li>
-  <li><a href="https://gitlab.gnome.org/GNOME/adwaita-fonts">https://gitlab.gnome.org/GNOME/adwaita-fonts</a></li>
+  <li>
+    <a href="https://gitlab.gnome.org/GNOME/adwaita-fonts"
+      >https://gitlab.gnome.org/GNOME/adwaita-fonts</a
+    >
+  </li>
   <li>Adwaita Mono has been modified to reduce file size: some glyphs removed, woff formats</li>
 </ul>
 <h3>Adwaita Icons</h3>
 <ul>
   <li>CC-BY-SA, <a href="http://www.gnome.org">GNOME Project</a></li>
-  <li><a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">https://gitlab.gnome.org/GNOME/adwaita-icon-theme</a></li>
+  <li>
+    <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme"
+      >https://gitlab.gnome.org/GNOME/adwaita-icon-theme</a
+    >
+  </li>
 </ul>
 <h3>Forgejo Logo</h3>
 <ul>
   <li>CC-BY-SA, <a href="https://caesarschinas.com/">Caesar Schinas</a></li>
-  <li><a href="https://codeberg.org/forgejo/governance/src/branch/main/branding">https://codeberg.org/forgejo/governance/src/branch/main/branding</a></li>
+  <li>
+    <a href="https://codeberg.org/forgejo/governance/src/branch/main/branding"
+      >https://codeberg.org/forgejo/governance/src/branch/main/branding</a
+    >
+  </li>
 </ul>
-<br>
+<br />
 <h2>Very inspired by <a href="https://synth.download">synth.download</a> 💛</h2>
