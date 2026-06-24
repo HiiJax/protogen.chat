@@ -2,6 +2,12 @@
   <title>services | protogen.chat</title>
 </svelte:head>
 
+<div class="service">
+  <strong>NOTE:</strong> protogen.chat is currently undergoing a migration to a new domain and network
+  setup. Due to this, registrations for some services might be temporarily unavailable. Feel free to still
+  reach out.
+</div>
+
 <h1>Services</h1>
 <p>
   protogen<span class="accent">.</span>chat provides a variety of free services, just DM
@@ -73,7 +79,7 @@
       independantly from each other.
     </p>
   </div>
-  <div class="service">
+  <!--<div class="service">
     <div class="service-header">
       <div class="service-icon">*.</div>
       <h2 class="service-name">Subdomains</h2>
@@ -84,7 +90,7 @@
       It's currently best used for Bluesky handles, but hosting other content behind them might be
       allowed with approval.
     </p>
-  </div>
+  </div>-->
   <div class="service">
     <div class="service-header">
       <svg role="img" class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
