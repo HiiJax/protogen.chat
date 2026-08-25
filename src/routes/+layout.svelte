@@ -39,6 +39,11 @@
       <a href="/services">Services</a>
     </nav>
   </header>
+  <div class="service" style="background-color: darkred;">
+    <strong>ATTENTION:</strong> protogen.chat is now known as The Protogen Nexus and has moved to a
+    new domain! Please change your links to
+    <a href="https://protogen.nexus">protogen.nexus</a>!
+  </div>
   <main id="content">
     {@render children()}
   </main>

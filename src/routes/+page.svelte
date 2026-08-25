@@ -74,11 +74,6 @@
   <title>home | protogen.chat</title>
 </svelte:head>
 
-<div class="service">
-  <strong>ATTENTION:</strong> protogen.chat will be moving to a new domain soon! Please keep an eye
-  on <a href="https://bsky.app/profile/protogen.chat">the Bluesky</a> for updates!
-</div>
-
 <div class="hero">
   welcome, pro<span
     id="prowogen"
